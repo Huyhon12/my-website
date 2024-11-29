@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chúc Mừng Sinh Nhật</title>
     <style>
+         html, body {
+            height: 100%; /* Đảm bảo thân trang chiếm toàn bộ chiều cao */
+            margin: 0; /* Bỏ margin mặc định */
+            padding: 0; /* Bỏ padding mặc định */
+        }
         body {
             background-image: url('hh.jpg'); /* Đảm bảo hh.jpg nằm cùng thư mục với tệp HTML */
             background-size: cover; /* Đảm bảo hình nền phủ đầy màn hình */
+            background-position: center; /* Căn giữa hình nền */
+            background-repeat: no-repeat; /* Không lặp lại hình nền */
             font-family: 'Arial', sans-serif;
             text-align: center;
             overflow: hidden;
-            margin: 0;
-            padding: 0;
         }
         h1 {
             font-size: 3em;
